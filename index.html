@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Seleciona o ícone -->
+    <link rel="icon" href="./img/Dental_White.png" type="image/x-icon">
+    <!-- Configura o site para ser responsivo, ajustando o zoom e a largura conforme o dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Informação do autor da página -->
+    <meta name="author" content="Ricardo Andreotti Gonçalves">
+    <!-- Palavras-chave para SEO, essas palavras devem ser preenchidas com termos relevantes -->
+    <meta name="keywords" content="???, ???, ???">
+    <!-- Link para o arquivo CSS principal que contém o estilo padrão do site -->
+    <link rel="stylesheet" href="css/styleMain.css">
+    <!-- Define o conjunto de caracteres como UTF-8, garantindo compatibilidade com a maioria dos caracteres -->
+    <meta charset="UTF-8">
+    <!-- Título da página que será exibido na aba do navegador -->
+    <title>Upa Clinic</title>
+</head>
+
+<body>
+    <!-- Início - Barra de navegação -->
+    <nav id="navbar">
+        <div id="navbar-container">
+            <!-- Logo da clínica, com imagem associada -->
+            <h1 class="logo">
+                <img src="./img/Dental_White.png" class="dental" alt="Logo da Upa Clinic"> <!-- Logo da clínica -->
+                Upa Clinic <!-- Nome da clínica -->
+                <span class="sub">Especialidades Interligadas</span> <!-- Slogan ou subtexto -->
+            </h1>
+
+            <!-- Lista de itens da barra de navegação, que leva a diferentes seções da página -->
+            <ul id="navbar-items">
+                <li><a href="#home">Home</a></li> <!-- Link para a seção de início -->
+                <li><a href="#testimonials">Profissionais</a></li> <!-- Link para a seção de profissionais -->
+                <li><a href="#contact">Unidade próxima</a></li> <!-- Link para a seção de contato -->
+                <li><a href="#treatments">Tratamentos</a></li> <!-- Link para a seção de tratamentos -->
+                <li><a href="#about">Odontologia Estética</a></li> <!-- Link para a seção de odontologia estética -->
+            </ul>
+        </div> 
+    </nav>
+    <!-- Fim - Barra de navegação -->
+
+    <!-- Início - Apresentação -->
+    <section class="home" id="home">
+        <div class="content">
+            <!-- Texto principal de boas-vindas e slogan da clínica -->
+            <h3>Sorria com confiança</h3> <!-- Slogan inicial -->
+            <h1>Upa Clinic: Sua Clínica Odontológica de Excelência</h1> <!-- Título promocional da clínica -->
+            <p>Cuidamos do seu sorriso com tecnologia avançada e profissionais especializados. Agende sua consulta hoje!</p> <!-- Descrição da missão da clínica -->
+
+            <!-- Botões de chamada para ação (CTA), incentivando o usuário a agendar uma consulta ou saber mais -->
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Agende Agora</a> <!-- Botão que leva à seção de contato para agendar -->
+                <a href="./party.html" class="btn btn-secondary">Saiba Mais</a> <!-- Botão que leva a uma página externa para mais informações -->
+            </div>
+        </div>
+    </section>
+    <!-- Fim - Apresentação -->
+
+    <!-- Início - Diferenciais -->
+    <section id="features">
+        <!-- Título da seção de diferenciais com uma classe para estilização -->
+        <h1 class="heading"><span>Nossos</span> Diferenciais</h1>
+
+        <!-- Contêiner que agrupa os blocos dos diferenciais da clínica -->
+        <div id="features-container">
+            <!-- Primeiro diferencial: Tecnologia Avançada -->
+            <div class="feature">
+                <!-- Ícone representando tecnologia avançada, utilizando a biblioteca Font Awesome -->
+                <i class="fas fa-tooth fa-3x"></i>
+                <!-- Título do diferencial -->
+                <h3 class="feature-title">Tecnologia Avançada</h3>
+                <!-- Descrição do diferencial -->
+                <p>Utilizamos equipamentos de última geração para garantir tratamentos precisos e eficientes.</p>
+            </div>
+
+            <!-- Segundo diferencial: Profissionais Especializados -->
+            <div class="feature">
+                <!-- Ícone representando profissionais médicos, também usando Font Awesome -->
+                <i class="fas fa-user-md fa-3x"></i>
+                <!-- Título do diferencial -->
+                <h3 class="feature-title">Profissionais Especializados</h3>
+                <!-- Descrição do diferencial -->
+                <p>Nossa equipe é composta por dentistas altamente qualificados e experientes em diversas especialidades.</p>
+            </div>
+
+            <!-- Terceiro diferencial: Atendimento Personalizado -->
+            <div class="feature">
+                <!-- Ícone representando um sorriso, também com Font Awesome -->
+                <i class="fas fa-smile fa-3x"></i>
+                <!-- Título do diferencial -->
+                <h3 class="feature-title">Atendimento Personalizado</h3>
+                <!-- Descrição do diferencial -->
+                <p>Oferecemos um cuidado individualizado, focado nas necessidades específicas de cada paciente.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Fim - Diferenciais -->
+
+    <!-- Início - Sobre Nós -->
+    <section class="about" id="about">
+        <!-- Título da seção "Sobre Nós", com destaque para a palavra "Sobre" -->
+        <h1 class="heading"><span>Sobre</span> nós</h1>
+
+        <!-- Contêiner que organiza o conteúdo em duas colunas: slider de imagens e texto -->
+        <div class="row">
+            <!-- Slider de imagens com fotos relacionadas à clínica -->
+            <div id="slider">
+                <!-- Imagens rotativas, sendo a primeira selecionada inicialmente -->
+                <img class="selected" src="./img/pexels1.jpg" alt="Imagem 1">
+                <img src="./img/dentista.jpg" alt="Imagem 2">
+                <img src="./img/Maria1.jpg" alt="Imagem 3">
+                <img src="./img/dentistas.jpg" alt="Imagem 4">
+            </div>
+
+            <!-- Conteúdo textual sobre a clínica -->
+            <div class="content">
+                <!-- Título destacando o diferencial da clínica no ramo odontológico -->
+                <h3>O que nos torna especiais nesse ramo?</h3>
+                <!-- Primeiro parágrafo explicando a filosofia da clínica -->
+                <p>Na Upa Clinic, nossa paixão pela odontologia e compromisso com a excelência nos destacam no mercado. Combinamos tecnologia de ponta com uma equipe altamente qualificada para oferecer tratamentos personalizados e resultados excepcionais.</p>
+                <!-- Segundo parágrafo focado em conforto, prevenção e educação em saúde bucal -->
+                <p>Nosso foco está em proporcionar uma experiência confortável e positiva, construindo relacionamentos duradouros com nossos pacientes. Priorizamos a educação em saúde bucal e a prevenção, garantindo sorrisos saudáveis e radiantes.</p>
+                <!-- Botão de chamada para ação, incentivando a visualização de depoimentos -->
+                <a href="#" class="btn">Depoimentos</a>
+            </div>
+        </div>
+    </section>
+    <!-- Fim - Sobre Nós -->
+
+    <!-- Início - Seção de Tratamentos -->
+    <section class="treatments" id="treatments">
+        <!-- Título da seção -->
+        <h1 class="heading"><span>Nossos</span> Tratamentos</h1>
+        <div class="treatments-container">
+            <!-- Item de tratamento: Implantes -->
+            <div class="treatment-item">
+                <img src="./img/implantes-1.png" alt="Implantes" class="treatment-image">
+                <h3>Implantes</h3>
+                <p>Restaure seu sorriso com implantes dentários de alta qualidade.</p>
+            </div>
+            <!-- Item de tratamento: Ortodontia -->
+            <div class="treatment-item">
+                <img src="./img/aparelho.png" alt="Ortodontia" class="treatment-image">
+                <h3>Ortodontia</h3>
+                <p>Alinhe seus dentes com nossos tratamentos ortodônticos avançados.</p>
+            </div>
+            <!-- Item de tratamento: Clareamento -->
+            <div class="treatment-item">
+                <img src="./img/clareamento.png" alt="Clareamento" class="treatment-image">
+                <h3>Clareamento</h3>
+                <p>Obtenha um sorriso mais brilhante com nosso clareamento profissional.</p>
+            </div>
+            <!-- Item de tratamento: Tratamento de Canal -->
+            <div class="treatment-item">
+                <img src="./img/canal.png" alt="Tratamento de Canal" class="treatment-image">
+                <h3>Tratamento de Canal</h3>
+                <p>Tratamentos de canal indolores e eficazes para salvar seus dentes.</p>
+            </div>
+            <!-- Item de tratamento: Tratamento Periodontal -->
+            <div class="treatment-item">
+                <img src="./img/gengiva.png" alt="Tratamento Periodontal" class="treatment-image">
+                <h3>Tratamento Periodontal</h3>
+                <p>Cuide da saúde das suas gengivas com nossos tratamentos especializados.</p>
+            </div>
+            <!-- Item de tratamento: Extração de Siso -->
+            <div class="treatment-item">
+                <img src="./img/siso.png" alt="Extração de Siso" class="treatment-image">
+                <h3>Extração de Siso</h3>
+                <p>Remoção segura e eficiente de dentes do siso problemáticos.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Fim - Seção de Tratamentos -->
+
+    <!-- Início - Seção de Contato -->
+    <section class="contact" id="contact">
+        <!-- Título da seção -->
+        <h1 class="heading"><span>Nos</span> Contate</h1>
+
+        <!-- Contêiner da seção de contato -->
+        <div class="contact-container">
+            <!-- Informações de contato da clínica -->
+            <div class="contact-info">
+                <h3>Informações de Contato</h3>
+
+                <!-- Endereço da clínica -->
+                <p><i class="fas fa-map-marker-alt"></i> Rua Exemplo, 123 - Cidade, Estado</p>
+
+                <!-- Telefone da clínica -->
+                <p><i class="fas fa-phone"></i> (11) 1234-5678</p>
+
+                <!-- Email de contato -->
+                <p><i class="fas fa-envelope"></i> contato@upaclinic.com</p>
+
+                <!-- Mapa com localização da clínica -->
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1976900422647!2d-46.63664908502192!3d-23.55368478469242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59aa5b4089d1%3A0x6a0cd2a9dc72a43!2sCentro%20Hist%C3%B3rico%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1623345678901!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <!-- Links para redes sociais -->
+                <div class="social-links">
+                    <!-- Facebook -->
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <!-- Instagram -->
+                    <a href="#" class="fab fa-instagram"></a>
+                    <!-- WhatsApp -->
+                    <a href="#" class="fab fa-whatsapp"></a>
+                </div>
+            </div>
+
+            <!-- Formulário de contato -->
+            <form class="contact-form" id="contact-form">
+                <h3>Envie uma Mensagem</h3>
+
+                <!-- Campo para selecionar o assunto -->
+                <div class="form-group">
+                    <span class="fas fa-list"></span>
+                    <label>Assunto</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Selecione o assunto</option>
+                    <option value="agendamento">Agendamento de Consulta</option>
+                    <option value="informacoes">Informações sobre Tratamentos</option>
+                    <option value="orcamento">Solicitação de Orçamento</option>
+                    <option value="outro">Outro Assunto</option>
+                </select>
+                    <i class="img-success"><img src="./img/success-icon.svg" alt="Ícone de sucesso"></i>
+                    <i class="img-error"><img src="./img/error-icon.svg" alt="Ícone de erro"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <!-- Campo para nome -->
+                <div class="form-group">
+                    <span class="fas fa-user"></span>
+                    <label>Nome</label>
+                    <input type="text" id="username" name="username" placeholder="Digite seu nome" required>
+                    <i class="img-success"><img src="./img/success-icon.svg" alt="Ícone de sucesso"></i>
+                    <i class="img-error"><img src="./img/error-icon.svg" alt="Ícone de erro"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <!-- Campo para email -->
+                <div class="form-group">
+                    <span class="fas fa-envelope"></span>
+                    <label>Email</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                    <i class="img-success"><img src="./img/success-icon.svg" alt="Ícone de sucesso"></i>
+                    <i class="img-error"><img src="./img/error-icon.svg" alt="Ícone de erro"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <!-- Campo para telefone -->
+                <div class="form-group">
+                    <span class="fas fa-phone"></span>
+                    <label>Telefone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone" required>
+                    <i class="img-success"><img src="./img/success-icon.svg" alt="Ícone de sucesso"></i>
+                    <i class="img-error"><img src="./img/error-icon.svg" alt="Ícone de erro"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <!-- Botão de envio do formulário -->
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+    <!-- Fim - Seção de Contato -->
+
+    <!-- Início - Depoimentos -->
+    <section id="testimonials">
+        <!-- Título da seção -->
+        <h1 class="heading"><span>Nossos</span> Profissionais</h1>
+
+        <!-- Contêiner dos depoimentos -->
+        <div id="testimonials-container">
+            <!-- Depoimento 1 -->
+            <div class="testimonial">
+                <!-- Imagem da Dra. Maria -->
+                <img src="./img/downlo1.jpeg" alt="Dra. Maria Mariazinha Iluminada" class="testimonial-image">
+                <!-- Conteúdo do depoimento -->
+                <div class="testimonial-content">
+                    <h3>Dra. Mariazinha Iluminada</h3>
+                    <h4>Clínica Geral – Ortodontista</h4>
+                    <p>Com mais de 15 anos de experiência, a Dra. 
+                        Maria é especialista em ortodontia e tratamentos estéticos. 
+                        Sua abordagem cuidadosa e técnicas inovadoras garantem resultados 
+                        excepcionais para nossos pacientes.
+                    </p>
+                </div>
+            </div>
+    
+            <!-- Depoimento 2 -->
+            <div class="testimonial">
+                <!-- Imagem do Dr. Paulo -->
+                <img src="./img/Maria1.jpg" alt="Dr. Paulo Paulinho da Cunha" class="testimonial-image">
+                <!-- Conteúdo do depoimento -->
+                <div class="testimonial-content">
+                    <h3>Dr. Paulo Paulinho da Cunha</h3>
+                    <h4>Clínico Geral – Implantodontia</h4>
+                    <p>Especializado em implantes dentários, o Dr. Paulo combina precisão técnica 
+                        com um olhar atento às necessidades individuais de cada paciente. Sua expertise 
+                        garante sorrisos restaurados com naturalidade e funcionalidade.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim - Depoimentos -->
+
+    <!-- Início - Rodapé -->
+    <footer class="footer" id="footer">
+        <div class="footer-content">
+
+            <!-- Seção 'Sobre' no rodapé -->
+            <div class="footer-section abouts">
+                <!-- Logo do rodapé -->
+                <h2 class="logo-text">Upa Clinic</h2>
+                <!-- Descrição sobre a clínica -->
+                <p>
+                    Sua clínica odontológica de confiança, oferecendo serviços de alta qualidade 
+                    e cuidados personalizados para o seu sorriso.
+                </p>
+                <!-- Informações de contato no rodapé -->
+                <div class="contacts">
+                    <span><i class="fas fa-phone"></i> &nbsp; (11) 1234-5678</span>
+                    <span><i class="fas fa-envelope"></i> &nbsp; contato@upaclinic.com</span>
+                </div>
+                <!-- Links para redes sociais no rodapé -->
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <!-- Seção de links rápidos no rodapé -->
+            <div class="footer-section links">
+                <h2>Links Rápidos</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#testimonials">Profissionais</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#treatments">Tratamentos</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                </ul>
+            </div>
+
+            <!-- Formulário de contato no rodapé -->
+            <div class="footer-section contact-form">
+                <form class="contact-footer-form" id="contact-footer-form">
+                    <h2>Contate-nos</h2>
+
+                    <!-- Campo para email -->
+                    <div class="form-footer-group">
+                        <span class="fas fa-envelope"></span>
+                        <label>Email</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                        <i class="img-success"><img src="./img/success-icon.svg" alt="Ícone de sucesso"></i>
+                        <i class="img-error"><img src="./img/error-icon.svg" alt="Ícone de erro"></i>
+                        <small>Mensagem de erro</small>
+                    </div>
+
+                    <!-- Campo para telefone -->
+                    <div class="form-footer-group">
+                        <span class="fas fa-phone"></span>
+                        <label>Telefone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone" required>
+                        <i class="img-success"><img src="./img/success-icon.svg" alt="Ícone de sucesso"></i>
+                        <i class="img-error"><img src="./img/error-icon.svg" alt="Ícone de erro"></i>
+                        <small>Mensagem de erro</small>
+                    </div>
+
+                    <!-- Botão de envio do formulário -->
+                    <button type="submit-footer" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+
+        </div>
+        <!-- Seção inferior do rodapé -->
+        <div class="footer-bottom">
+            &copy; 2024 Upa Clinic | Desenvolvido pela equipe Upa | Todos os direitos reservados
+        </div>
+    </footer>
+    <!-- Fim - Rodapé -->
+
+    <!-- Ícones -->
+    <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
+    <!-- Java -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Animação -->
+    <script src="js/index.js"></script>
+    <!-- Formulário -->
+    <script src="js/main-form.js"></script>
+    <script src="js/footer-form.js"></script>
+</body>
+</html>
