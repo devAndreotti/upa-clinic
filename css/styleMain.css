@@ -59,7 +59,6 @@
 }
 
 * {
-    font-family: "Montserrat", sans-serif;
     outline: none; border:none;
     transition: .2s linear;
     box-sizing: border-box;
@@ -147,14 +146,14 @@ p {
     transform: scale(1.05);
 }
 
-.dental {
+.upa-icon {
     display: inline-block;
     width: 40px;
     margin-right: 10px;
     transition: transform 0.3s ease;
 }
 
-.logo:hover .dental {
+.logo:hover .upa-icon {
     transform: rotate(10deg);
 }
 
@@ -233,7 +232,7 @@ p {
 
 .home {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/teeth.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/home-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -390,7 +389,7 @@ p {
    =================== */
 
 #features {
-    background-image: linear-gradient(rgba(211, 173, 127,0.7), rgba(0,0,0,0.7)), url("../img/vv.jpg");
+    background-image: linear-gradient(rgba(211, 173, 127,0.7), rgba(0,0,0,0.7)), url("../img/card-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -553,7 +552,7 @@ p {
    =================== */
 
 .about {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/496581.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/about-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -739,7 +738,7 @@ p {
    =================== */
 
 .treatments {
-    background-image: linear-gradient(rgba(211, 173, 127,0.7), rgba(0,0,0,0.7)), url("../img/vv.jpg");
+    background-image: linear-gradient(rgba(211, 173, 127,0.7), rgba(0,0,0,0.7)), url("../img/card-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -875,7 +874,7 @@ p {
    =================== */
 
 .contact {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/496581.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/about-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -955,7 +954,7 @@ p {
 
 .map-container {
     margin-top: 2rem;
-    height: 250px;
+    flex-grow: 1;
     width: 100%;
     border-radius: 10px;
     overflow: hidden;
@@ -995,7 +994,7 @@ p {
 }
 
 .contact-form .form-group {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     position: relative;
 }
 
@@ -1012,7 +1011,7 @@ p {
     width: 100%;
     padding: 1.2rem 2.5rem 1.2rem 3.5rem;
     font-size: 1.5rem;
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--secondary-color);
     border-radius: 10px;
     transition: all 0.3s ease;
     background-color: var(--background-color);
@@ -1023,7 +1022,7 @@ p {
 
 .contact-form input:hover,
 .contact-form select:hover {
-    border-color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
 }
 
 .contact-form select {
@@ -1092,30 +1091,38 @@ p {
 .form-group .img-error,
 .form-group .img-success {
     position: absolute;
-    top: 70%;
-    right: 47px;
-    transform: translateY(-50%);
     visibility: hidden;
-    pointer-events: none;
+    top: 54%;
+    right: 47px;
+    opacity: 0;
+    transform: translateX(150%);
+    transition: visibility 0s, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .form-group.error .img-error,
 .form-group.success .img-success {
     visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .form-group small {
     visibility: hidden;
+    opacity: 0;
     position: absolute;
     bottom: -20px;
     left: 0;
     font-size: 12px;
     font-weight: 600;
+    transition: visibility 0s, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateY(10px);
 }
 
 .form-group.error small {
     visibility: visible;
+    opacity: 1;
     color: #DB5A5A;
+    transform: translateY(0);
 }
 
 .form-group.error input,
@@ -1123,6 +1130,7 @@ p {
     border-color: #DB5A5A;
     background-color: #FFEBEE;
     color: black; /* Garante que o texto seja legível */
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .form-group.success input,
@@ -1130,10 +1138,12 @@ p {
     border-color: #4CAF50;
     background-color: #E8F5E9;
     color: black; /* Garante que o texto seja legível */
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .form-group.error .fas {
     color: #DB5A5A;
+    transition: color 0.3s ease-in-out;
 }
 
 .form-group.success .fas {
@@ -1166,7 +1176,7 @@ p {
    =================== */
 
 #testimonials {
-    background-image: linear-gradient(rgba(211, 173, 127,0.7), rgba(0,0,0,0.7)), url("../img/vv.jpg");
+    background-image: linear-gradient(rgba(211, 173, 127,0.7), rgba(0,0,0,0.7)), url("../img/card-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1342,7 +1352,7 @@ p {
     align-items: flex-start;
     border-radius: 20px;
     transition: all 0.3s ease;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/496581.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/about-bg.jpg');
     background-size: cover;
     background-position: center;
     padding: 2rem;
@@ -1426,7 +1436,7 @@ p {
     flex-direction: column;
     align-items: flex-start;
     border-radius: 20px;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/8467940.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/footer-bg.jpg');
     padding: 2rem;
     transition: all 0.3s ease;
 }
@@ -1489,7 +1499,7 @@ p {
    =================== */
 
 .footer-section.contact-form {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/8467940.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../img/footer-bg.jpg');
     display: flex;
     flex-direction: column;
     padding: 2rem;
@@ -1515,7 +1525,7 @@ p {
 
 .footer-section.contact-form .form-footer-group {
     position: relative;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
 }
 
 .footer-section.contact-form .form-footer-group span {
@@ -1531,7 +1541,7 @@ p {
     color: var(--text-color);
     line-height: 1.5rem;
     padding: 1rem 1.5rem 1rem 3rem;
-    border: none;
+    border: 2px solid transparent;
     width: 100%;
     border-radius: 5px;
     transition: all 0.3s ease;
@@ -1550,9 +1560,10 @@ p {
 .footer-section.contact-form .form-footer-group .img-error,
 .footer-section.contact-form .form-footer-group .img-success {
     position: absolute;
-    top: 70%;
-    right: 20px;
-    transform: translateY(-50%);
+    top: 54%;
+    right: 47px;
+    opacity: 0;
+    transform: translatex(150%);
     visibility: hidden;
     pointer-events: none;
 }
@@ -1560,37 +1571,54 @@ p {
 .footer-section.contact-form .form-footer-group.error .img-error,
 .footer-section.contact-form .form-footer-group.success .img-success {
     visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .footer-section.contact-form .form-footer-group small {
     visibility: hidden;
+    opacity: 0;
     position: absolute;
     bottom: -20px;
     left: 0;
     font-size: 12px;
     font-weight: 600;
+    transition: visibility 0s, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: translateY(10px);
 }
 
 .footer-section.contact-form .form-footer-group.error small {
     visibility: visible;
+    opacity: 1;
     color: #DB5A5A;
+    transform: translateY(0);
 }
 
-.footer-section.contact-form .form-footer-group.error input {
+.footer-section.contact-form .form-footer-group.error input,
+.footer-section.contact-form .form-footer-group.error select {
     border-color: #DB5A5A;
+    border-width: 2px;
+    box-shadow: none;
+    border-style: solid;
     background-color: #FFEBEE;
+    color: black; /* Garante que o texto seja legível */
 }
 
-.footer-section.contact-form .form-footer-group.success input {
+.footer-section.contact-form .form-footer-group.success input,
+.footer-section.contact-form .form-footer-group.success select {
     border-color: #4CAF50;
+    border-width: 2px;
+    box-shadow: none;
+    border-style: solid;
     background-color: #E8F5E9;
+    color: black; /* Garante que o texto seja legível */
 }
 
-.footer-section.contact-form .form-footer-group.error span {
+.footer-section.contact-form .form-footer-group.error .fas {
     color: #DB5A5A;
 }
 
-.footer-section.contact-form .form-footer-group.success span {
+.footer-section.contact-form .form-footer-group.success .fas {
     color: #4CAF50;
 }
 
