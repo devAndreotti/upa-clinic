@@ -25,7 +25,7 @@ Este é um site moderno e responsivo para uma clínica odontológica. Desenvolvi
 
 ## 🛠️ **Tecnologias Utilizadas**
 - [Font Awesome](https://fontawesome.com/) - Biblioteca de ícones vetoriais e logotipos, utilizada para adicionar ícones estilizados ao projeto.
-- [Google Fonts](https://fonts.google.com/) - Serviço de fontes da web, usado para incorporar as fontes Montserrat e Poppins no design do site.
+- [Google Fonts](https://fonts.google.com/) - Serviço de fontes da web, usado para incorporar as fontes Montserrat e Poppins.
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Para criar interatividade, validar formulários e implementar o slider de imagens.
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Utilizada para definir o layout, cores e responsividade do site.
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Usada para estruturar e apresentar o conteúdo do site.
@@ -51,14 +51,6 @@ upa-clinic/
 │   └── slider.js
 │
 ├── img/
-│   ├── upa-icon.png
-│   ├── dentista-01.jpg
-│   ├── dentista-02.jpg
-│   ├── dentista-03.jpg
-│   ├── dentista-04.jpg
-│   ├── dentista-05.jpeg
-│   ├── card-bg.jpg
-│   ├── footer-bg.jpg
 │   └── project/
 │       ├── design/
 │       ├── new/
