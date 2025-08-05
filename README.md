@@ -9,7 +9,7 @@
 </p>
 
 <div align="center">
-  <img src="./Img/project/new/new-home.png" alt="Upa Clinic Home"/>
+  <img src="./img/project/new/new-home.png" alt="Upa Clinic Home"/>
 </div>
 
 ## 📋 **Sobre o Projeto**
