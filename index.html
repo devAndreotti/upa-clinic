@@ -11,7 +11,7 @@
     <link rel="icon" href="./img/upa-icon.png" type="image/x-icon">
     
     <!-- Preload CSS e ícone da página -->
-    <link rel="preload" href="css/styleMain.css" as="style">
+    <link rel="preload" href=".css/styleMain.css" as="style">
     <link rel="preload" href="./img/upa-icon.png" as="image">
     
     <!-- Critical CSS inline -->
@@ -21,7 +21,7 @@
     </style>
     
     <!-- Carregamento assíncrono do CSS -->
-    <link rel="stylesheet" href="css/styleMain.css" media="print" onload="this.media='all'" fetchpriority="high">
+    <link rel="stylesheet" href=".css/styleMain.css" media="print" onload="this.media='all'" fetchpriority="high">
     <noscript><link rel="stylesheet" href="css/styleMain.css"></noscript>
     
     <!-- Pré-conexão com domínios externos -->
@@ -93,8 +93,8 @@
         <div class="row">
             <div id="slider">
                 <img class="selected" src="./img/dentista-01.jpg" alt="Imagem 1" loading="lazy">
-                <img src=".img/dentista-02.jpg" alt="Imagem 2" loading="lazy">
-                <img src="img/dentista-03.jpg" alt="Imagem 3" loading="lazy">
+                <img src="./img/dentista-02.jpg" alt="Imagem 2" loading="lazy">
+                <img src="./img/dentista-03.jpg" alt="Imagem 3" loading="lazy">
                 <img src="./img/dentista-04.jpg" alt="Imagem 4" loading="lazy">
             </div>
             <div class="content">
@@ -112,12 +112,12 @@
         <h1 class="heading"><span>Nossos</span> Tratamentos</h1>
         <div class="treatments-container">
             <div class="treatment-item">
-                <img src="/img/trat-implan.png" alt="Implantes" class="treatment-image">
+                <img src="./img/trat-implan.png" alt="Implantes" class="treatment-image">
                 <h3>Implantes</h3>
                 <p>Restaure seu sorriso com implantes dentários de alta qualidade.</p>
             </div>
             <div class="treatment-item">
-                <img src="img/trat-apare.png" alt="Ortodontia" class="treatment-image">
+                <img src="./img/trat-apare.png" alt="Ortodontia" class="treatment-image">
                 <h3>Ortodontia</h3>
                 <p>Alinhe seus dentes com nossos tratamentos ortodônticos avançados.</p>
             </div>
