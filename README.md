@@ -73,14 +73,6 @@ upa-clinic/
 - [ ] **Aprimorar design**.
 - [ ] **Padronizar CSS**.
 
-## 💪 Como Contribuir
-Contribuições são bem-vindas! Siga estas etapas para colaborar:
-1. Faça um fork do projeto.
-2. Crie uma nova branch para sua feature: `git checkout -b feature/nome-feature`.
-3. Commit suas mudanças: `git commit -m 'Adiciona nova feature'`.
-4. Envie para a branch: `git push origin feature/nome-feature`.
-5. Abra um Pull Request.
-
 ## 🔄 Versão 2.0
 <div align="center">
   <img src="./img/project/new/new-contact.png" alt="Modal Saúde" width="1000" style="display: block;">
@@ -96,6 +88,14 @@ Contribuições são bem-vindas! Siga estas etapas para colaborar:
   <img src="./img/project/old/old-footer.png" alt="Página Inicial da Antiga Iniciativa Saúde" width="1000" style="display: block;">
   <img src="./img/project/old/old-features.png" alt="Página Inicial da Antiga Iniciativa Saúde" width="1000" style="display: block;">
 </div>
+
+## 💪 Como Contribuir
+Contribuições são bem-vindas! Siga estas etapas para colaborar:
+1. Faça um fork do projeto.
+2. Crie uma nova branch para sua feature: `git checkout -b feature/nome-feature`.
+3. Commit suas mudanças: `git commit -m 'Adiciona nova feature'`.
+4. Envie para a branch: `git push origin feature/nome-feature`.
+5. Abra um Pull Request.
 
 ## 📝 Nota
 Este projeto começou como uma atividade técnica e foi aprimorado ao longo do tempo. A versão atual reflete um esforço contínuo para melhorar a funcionalidade e a usabilidade da aplicação.
