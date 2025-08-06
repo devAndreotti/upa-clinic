@@ -250,7 +250,7 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("/upa-clinic/img/pattern.png");
+    background: url("../img/pattern.png");
     opacity: 0.05;
     z-index: 1;
 }
@@ -389,7 +389,7 @@ p {
    =================== */
 
 #features {
-    background-image: linear-gradient(rgba(211, 173, 127,0.7), rgba(0,0,0,0.7)), url("/upa-clinic/img/card-bg.jpg");
+    background-image: linear-gradient(rgba(211, 173, 127,0.7), rgba(0,0,0,0.7)), url("../img/card-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -552,7 +552,7 @@ p {
    =================== */
 
 .about {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/upa-clinic/img/about-bg.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/about-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -738,7 +738,7 @@ p {
    =================== */
 
 .treatments {
-    background-image: linear-gradient(rgba(211, 173, 127,0.7), rgba(0,0,0,0.7)), url("/upa-clinic/img/card-bg.jpg");
+    background-image: linear-gradient(rgba(211, 173, 127,0.7), rgba(0,0,0,0.7)), url("../img/card-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -874,7 +874,7 @@ p {
    =================== */
 
 .contact {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/upa-clinic/img/about-bg.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../img/about-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1176,7 +1176,7 @@ p {
    =================== */
 
 #testimonials {
-    background-image: linear-gradient(rgba(211, 173, 127,0.7), rgba(0,0,0,0.7)), url("/upa-clinic/img/card-bg.jpg");
+    background-image: linear-gradient(rgba(211, 173, 127,0.7), rgba(0,0,0,0.7)), url("../img/card-bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
