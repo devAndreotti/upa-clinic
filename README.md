@@ -60,18 +60,9 @@ upa-clinic/
 └── index.html
 ```
 
-## 🌐 Visualize o Projeto
+## 🔗 Visualize o Projeto
+Acesse a aplicação diretamente pelo link:
 👉 [**Upa Clinic**](https://devandreotti.github.io/upa-clinic/)
-
-## 🔮 Planos Futuros
-- [ ] **Adicionar as fontes usadas no próprio repositório**.
-- [ ] **Linkar formulário com banco de dados**.
-- [ ] **Arrumar as cores do formulário**.
-- [ ] **Adicionar tela de carregamento**.
-- [ ] **Arrumar variáveis em root**.
-- [ ] **Adicionar menu hamburguer**.
-- [ ] **Aprimorar design**.
-- [ ] **Padronizar CSS**.
 
 ## 🔄 Versão 2.0
 <div align="center">
@@ -88,6 +79,16 @@ upa-clinic/
   <img src="./img/project/old/old-footer.png" alt="Página Inicial da Antiga Iniciativa Saúde" width="1000" style="display: block;">
   <img src="./img/project/old/old-features.png" alt="Página Inicial da Antiga Iniciativa Saúde" width="1000" style="display: block;">
 </div>
+
+## 🔮 Planos Futuros
+- [ ] **Adicionar as fontes usadas no próprio repositório**.
+- [ ] **Linkar formulário com banco de dados**.
+- [ ] **Arrumar as cores do formulário**.
+- [ ] **Adicionar tela de carregamento**.
+- [ ] **Arrumar variáveis em root**.
+- [ ] **Adicionar menu hamburguer**.
+- [ ] **Aprimorar design**.
+- [ ] **Padronizar CSS**.
 
 ## 💪 Como Contribuir
 Contribuições são bem-vindas! Siga estas etapas para colaborar:
