@@ -61,9 +61,14 @@ upa-clinic/
 │   ├── success-icon.svg
 │   └── error-icon.svg
 │
-├── index.html
-└── party.html
+├── html/
+│   └── party.html
+│
+└── index.html
 ```
+
+## 🌐 Visualize o Projeto
+👉 [**Upa Clinic**](https://devandreotti.github.io/upa-clinic/)
 
 ## 🔮 Planos Futuros
 - [ ] **Adicionar as fontes usadas no próprio repositório**.
