@@ -30,13 +30,6 @@ Este é um site moderno e responsivo para uma clínica odontológica. Desenvolvi
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Utilizada para definir o layout, cores e responsividade do site.
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Usada para estruturar e apresentar o conteúdo do site.
 
-## 🚀 **Como Usar**
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/devAndreotti/upa-clinic.git
-   ```
-2. Abra o arquivo `index.html` no seu navegador preferido.
-
 ## 📂 **Estrutura do Projeto**
 ```bash
 upa-clinic/
