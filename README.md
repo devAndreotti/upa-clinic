@@ -70,7 +70,6 @@ Acesse a aplicação diretamente pelo link:
   <img src="./img/project/new/new-features.png" alt="Modal Apoiadores" width="1000" style="display: block;">
   <img src="./img/project/new/new-footer.png" alt="Página da Política de Privacidade" width="1000" style="display: block;">
   <img src="./img/project/new/new-party.png" alt="Menu da Página Aberto" width="1000" style="display: block;">
-  <img src="./img/project/new/new-testimonials.png" alt="Erro ao Enviar Mensagem" width="1000" style="display: block;">
 </div>
 
 ## 🔄 Versão 1.0
