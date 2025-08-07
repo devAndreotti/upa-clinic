@@ -97,7 +97,7 @@ Contribuições são bem-vindas! Siga estas etapas para colaborar:
 4. Envie para a branch: `git push origin feature/nome-feature`.
 5. Abra um Pull Request.
 
-## 📒 Nota
+## 📔 Nota
 Este projeto começou como uma atividade técnica e foi aprimorado ao longo do tempo. A versão atual reflete um esforço contínuo para melhorar a funcionalidade e a usabilidade da aplicação.
 
 ## 📝 Licença
