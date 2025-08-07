@@ -74,7 +74,7 @@ Acesse a aplicação diretamente pelo link:
 
 ## 🔄 Versão 1.0
 <div align="center">
-  <img src="./img/project/old/old-contact.png" alt="Página Inicial da Antiga Iniciativa Saúde" width="1000" style="display: block;">
+  <img src="./img/project/old/old-home.png" alt="Página Inicial da Antiga Iniciativa Saúde" width="1000" style="display: block;">
   <img src="./img/project/old/old-footer.png" alt="Página Inicial da Antiga Iniciativa Saúde" width="1000" style="display: block;">
   <img src="./img/project/old/old-features.png" alt="Página Inicial da Antiga Iniciativa Saúde" width="1000" style="display: block;">
 </div>
